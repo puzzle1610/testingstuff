@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutoTrimps
 // @namespace    https://github.com/zininzinin/AutoTrimps
-// @version      2.1a
+// @version      2.2
 // @description  Automate all the trimps!
 // @author       zininzinin, spindrjr, Ishkaru
 // @include        *trimps.github.io*
