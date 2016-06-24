@@ -1785,8 +1785,8 @@ function checkSettings() {
         case "Lead":
         portalLevel = 181;
         break;
-        case "Watch":
-        portalLevel = 181;
+        case "Corrupted":
+        portalLevel = 191;
         break;
     }
     if(portalLevel == -1)
