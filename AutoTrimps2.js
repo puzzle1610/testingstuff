@@ -847,8 +847,8 @@ function getBreedTime(remaining) {
 function initializeAutoTrimps() {
     debug('initializeAutoTrimps');
     loadPageVariables();
-    javascript: with(document)(head.appendChild(createElement('script')).src = 'https://puzzle1610.github.io/testingstuff/AutoTrimps2.js')._;
-    javascript: with(document)(head.appendChild(createElement('script')).src = 'https://puzzle1610.github.io/testingstuff/Graphs.js')._;
+    javascript: with(document)(head.appendChild(createElement('script')).src = 'https://zininzinin.github.io/AutoTrimps/NewUI.js')._;
+    javascript: with(document)(head.appendChild(createElement('script')).src = 'https://zininzinin.github.io/AutoTrimps/Graphs.js')._;
     //javascript: with(document)(head.appendChild(createElement('script')).src = 'https://rawgit.com/zininzinin/AutoTrimps/spin/NewUI.js')._;
     //javascript: with(document)(head.appendChild(createElement('script')).src = 'https://rawgit.com/zininzinin/AutoTrimps/spin/Graphs.js')._;
     //why you no update, github aids
@@ -1747,7 +1747,6 @@ function autoPortal() {
         case "Toxicity":
         case "Watch":
         case "Lead":
-		case "Corrupted":
             if(!game.global.challengeActive) {
                 pushData();
                 doPortal(autoTrimpSettings.AutoPortal.selected);
@@ -1788,9 +1787,6 @@ function checkSettings() {
         break;
         case "Watch":
         portalLevel = 181;
-        break;
-        case "Corrupted":
-        portalLevel = 191;
         break;
     }
     if(portalLevel == -1)
