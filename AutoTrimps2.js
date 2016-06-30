@@ -1823,6 +1823,7 @@ function manageGenes() {
             //if(shouldFarm && !game.global.mapsActive) autoTrimpSettings.GeneticistTimer.value = '30';
             autoTrimpSettings.GeneticistTimer.value = '11';
         }
+        else if(getPageSetting('SkipSpire') && game.global.world == 200) autoTrimpSettings.GeneticistTimer.value = '0';
         else autoTrimpSettings.GeneticistTimer.value = '30';
     }
     var inDamageStance = game.upgrades.Dominance.done ? game.global.formation == 2 : game.global.formation == 0;
